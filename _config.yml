@@ -1,14 +1,26 @@
-layout_spectrum: 0.9361702
-typography_spectrum: 0.04255319
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
   saturation: 0.2617021
-  lightness: 0.1723404
   brandStrength: 0.01598106
+  rhythmicContrast: 0.337947
   brandColors:
     - '#FFFFFF'
     - '#050505'
     - '#56512B'
     - '#D2AE70'
     - '#8C7A62'
-  rhythmicContrast: 0.337947
+  lightness: 0.1723404
+typography_spectrum: 0.06382979
+layout_spectrum: 0.9361702
 name: Mountain Folk Mushrooms
